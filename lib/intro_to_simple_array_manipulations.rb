@@ -1,4 +1,4 @@
 def using_concat)(array, arraytwo)
   favs = []
-  favs.concat(array + arraytwo)
+  favs = array.concat
 end
